@@ -1,0 +1,23 @@
+{
+    "manifest_version" : 2,
+    "name" : "Mars Tab",
+    "version" : "1.0",
+    "author" : "Cameron Church",
+    "default_locale": "en",
+    "description" : "Mars themed new tab extension.",
+    
+    "browser_action": {
+        "default_icon": "images/tab_logo_64.png",
+        "default_title": "Mars Tab",
+        "default_popup" : "popup.html"
+    },
+    
+    "icons" : {
+        "64" : "images/tab_logo_64.png"
+    },
+    
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+}
