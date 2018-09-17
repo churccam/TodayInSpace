@@ -1,0 +1,93 @@
+body{
+    color: white;
+    /*font-family: 'Orbitron', sans-serif;*/
+    background-image: url(https://i.imgur.com/GCJRhiA.png)
+}
+p {
+    font-size: 12px;
+}
+
+.topRow{
+    padding-top: 30px;
+}
+/*
+https://css-tricks.com/parallax-background-css3/
+*/
+
+h1{
+    color: white;
+}
+
+.contentDiv{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.smallContDiv{
+    border: 2px solid white;
+    margin: 6px;
+    background-color: rgb(0, 0, 0, .8);
+}
+
+.largeContDiv{
+    height: 800px;
+}
+.titleDiv{
+    padding: 0px;
+}
+
+.thumbnailImg{
+    max-height: 200px;
+    padding: 5px;
+}
+
+.imgDiv{
+    background: black url(images/earth.jpg) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+.imgDiv:hover{
+    opacity: .7;
+}
+#imageOfDay{
+    background: black url(images/astroMan.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    border: 2px solid #24006D;
+
+}
+#astroPicOfDay{
+    border: 2px solid #24006D;
+
+}
+#imageGal{
+    background: black url(images/purpleSpace.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    border: 2px solid #24006D;
+
+}
+/*
+Weather
+*/
+.weatherDiv{
+    border: 2px solid #3C3483;
+}
+
+.weatherEvent{
+    border: 2px solid #3C3483;
+    margin: 6px;
+}
+
+.eventTitle{
+    font-size: 14px;
+    margin: 0px;
+}
+.descDiv p{
+    margin: 0px;
+    padding: 0px;
+}

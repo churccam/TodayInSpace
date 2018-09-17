@@ -4,24 +4,133 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <!--google space mono font-->  
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
+      
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Today in Space</title>
+      
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="parallaxBackground.css">
+
+      
   </head>
   <body>  
-      <div class="container">
+        <!--background divs-->
+        <!--<div id="background"></div>-->
       
-      </div>
-    <div class="jumbotron">
-      <h1 class="display-4">Today in Space!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    </div>  
-     
-      <div id="apod"></div>
+      <div class="container-fluid text-center contentDiv">    
+          <br>
+          <br>
+          <br>
+          <div class="row content">
+              <div class="col-sm-1">
+              </div>
+            <div class="col-md-2 smallContDiv weatherDiv">
+            <br>
+                <h4>Space Weather Events</h4>
+                <br>
+              <div class="row ">
+                  <div class="col-12">
+                      <p class="eventTitle">Geomagnetic Storm (GST)</p></div>
+                <div class="col-12 text-left descDiv">
+                    <p>Description: temporary disturbance of the Earth's magnetosphere caused by a solar wind shock wave and/or cloud of magnetic field that interacts with the Earth's magnetic field.</p>
+                    <p>Start: </p>
+                    <p>End: </p>
+                    <p>Location</p>
+                
+                </div>
+            </div>
+            <br>
+            <div class="row ">
+                  <div class="col-12">
+                      <p class="eventTitle">Solar Flare (FLR)</p></div>
+                <div class="col-12 text-left descDiv">
+                    <p>Description: a brief eruption of intense high-energy radiation from the sun's surface, associated with sunspots and causing electromagnetic disturbances on the earth</p>
+                    <p>Start: </p>
+                    <p>End: </p>
+                    <p>Location</p>
+                
+                </div>
+            </div>
+            <br>
+                <div class="row ">
+                  <div class="col-12">
+                      <p class="eventTitle">Radiation Belt Enhancement</p></div>
+                <div class="col-12 text-left descDiv">
+                    <p>Description: zone of energetic charged particles, most of which originate from the solar wind, that are captured by and held around a planet by that planet's magnetic field.</p>
+                    <p>Start: </p>
+                    <p>End: </p>
+                    <p>Location</p>
+                
+                </div>
+            </div>
+                <br>
+            <div class="row ">
+                  <div class="col-12">
+                      <p class="eventTitle">Coronal Mass Ejection (CME)</p></div>
+                <div class="col-12 text-left descDiv">
+                    <p>Description: a significant release of plasma and accompanying magnetic field from the solar corona.</p>
+                    <p>Start: </p>
+                    <p>End: </p>
+                    <p>Location</p>
+                
+                </div>
+            </div>
+                
+                
+              </div>
+                
+                
+                
+                
+                
+            <div class="col-md-6 text-center largeContDiv">
+                <div class="row">
+                    <div class="col smallContDiv titleDiv">
+                        <h1>Today in Space</h1>
+                        <h4 id ="dateString"></h4>
+                <p>The latest news, weather, and images directly from NASA.</p>
+                    </div>
+                </div>  
+                
+                <div class="row">
+                    <div id="imageOfDay" class="col smallContDiv imgDiv">
+                        <p>NASA Image of the Day</p>
+                    </div>
+                    
+                <div id="astroPicOfDay" class="col smallContDiv imgDiv">
+                        <p>Astronomy Picture of the Day</p>
+                    </div>
+                    
+                <div id="imageGal" class="col smallContDiv imgDiv">
+                        <p>NASA Image Galary</p>
+    
+                    </div>
+                    
+                
+                    
+                </div>
+            </div>
+              
+            <div class="col-md-2 smallContDiv">
+            <br>
+                <h4>Near Earth Objects</h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+              <div class="col-sm-1">
+              </div>
+          </div>
+        </div>
+      
+      
+      
       
       
       
